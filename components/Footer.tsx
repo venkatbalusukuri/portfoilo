@@ -27,9 +27,7 @@ export default function Footer() {
 
                 {/* Copyright */}
                 <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', textAlign: 'center' }}>
-                    © 2026 {PERSONAL_INFO.name} · Built with{' '}
-                    <span style={{ color: 'var(--amber)' }}>♥</span>{' '}
-                    in Next.js + Framer Motion
+                    © 2026 {PERSONAL_INFO.name}
                 </p>
 
                 {/* Links */}
