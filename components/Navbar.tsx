@@ -1,7 +1,7 @@
 'use client';
 import { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { SOCIAL_LINKS } from '@/data/portfolio-data';
+import { PERSONAL_INFO, SOCIAL_LINKS } from '@/data/portfolio-data';
 
 export default function Navbar() {
     const navRef = useRef<HTMLElement>(null);
@@ -54,7 +54,7 @@ export default function Navbar() {
                         className="gradient-text-amber"
                         style={{ fontWeight: 800, fontSize: '1.25rem', letterSpacing: '-0.02em' }}
                     >
-                        ⬡ DataGravity
+                        ⬡ {PERSONAL_INFO.name}
                     </span>
                 </a>
 

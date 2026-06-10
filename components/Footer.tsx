@@ -21,7 +21,7 @@ export default function Footer() {
                 {/* Logo */}
                 <a href="#hero" style={{ textDecoration: 'none' }}>
                     <span className="gradient-text-amber" style={{ fontWeight: 800, fontSize: '1.1rem' }}>
-                        ⬡ DataGravity
+                        ⬡ {PERSONAL_INFO.name}
                     </span>
                 </a>
 
