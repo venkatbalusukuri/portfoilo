@@ -11,7 +11,7 @@ export const PERSONAL_INFO = {
     phone: "+91 83417 20596",
     location: "Narsampet, Warangal, Telangana",
     education: "B.Tech CSE (AIML) [2023-2027] — Jayamukhi Institute of Technological Sciences",
-    profileImage: "/profile.jpg",
+    profileImage: "/profile.png",
 };
 
 // ─── Social Links ────────────────────────────────────────────
