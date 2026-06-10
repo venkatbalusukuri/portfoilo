@@ -20,7 +20,7 @@ function DataChart() {
             className="animate-float-2"
             initial={{ opacity: 0, scale: 0.8, rotateY: -20 }}
             animate={{ opacity: 1, scale: 1, rotateY: 0 }}
-            transition={{ duration: 1.2, delay: 0.6, ease: 'easeOut' }}
+            transition={{ duration: 1.2, delay: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
             style={{
                 perspective: '800px',
                 transformStyle: 'preserve-3d',
